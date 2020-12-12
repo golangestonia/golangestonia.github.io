@@ -1,0 +1,10 @@
+<div id="menu">
+	<nav class="center">
+		{{ $current := . }}
+		<a href="{{ .Site.Home.RelPermalink }}">{{.Site.Title}}</a>
+		{{- range .Site.Menus.main -}}
+		{{ $active := in $current.RelPermalink .URL }}
+		<a {{if $active}} class="active" {{end}}href="{{ .URL }}">{{ .Name }}</a>
+		{{- end -}}
+	</nav>
+</div>
