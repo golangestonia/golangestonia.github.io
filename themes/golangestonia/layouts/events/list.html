@@ -10,8 +10,9 @@
 		{{ end }} >
 	<div class="info">
 		<h3>{{ .Title }}</h3>
-		<div>{{ .Date.Format "2006-01-02" }} <span class="right">@ {{ .Params.City }}</span></div>
+		<div>{{ .Date.Format "2006-01-02" }} <span class="right">@ {{ .Params.Place }}</span></div>
 	</div>
+	<span class="kind">{{.Params.Kind}}</span>
 	</a>
 	{{ end }}
 </div>
