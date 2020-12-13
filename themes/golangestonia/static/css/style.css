@@ -90,6 +90,8 @@ header {
 			var(--accent-light) 70%,
 			var(--accent) 70%
 		);
+
+	margin-bottom: 1rem;
 }
 
 #hero {
@@ -119,6 +121,8 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-end;
+
+	margin-bottom: 1rem;
 }
 
 @media (max-width:34rem) {
