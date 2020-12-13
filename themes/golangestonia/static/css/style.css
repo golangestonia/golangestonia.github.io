@@ -77,6 +77,21 @@ p {
 	font-weight: bold;
 }
 
+header {
+	background-color: var(--accent);
+	background-image:
+		radial-gradient(
+			circle at 35% 120%,
+			var(--accent) 50%,
+			transparent 50%
+		),
+		radial-gradient(
+			circle at 35% 150%,
+			var(--accent-light) 70%,
+			var(--accent) 70%
+		);
+}
+
 #hero {
 	background-color: var(--accent);
 	background-image: url("/images/hero.png");

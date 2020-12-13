@@ -1,6 +1,6 @@
 {{ define "main" }}
+<header><h1 class="center">{{ .Title }}</h1></header>
 <div class="center">
-<h1>{{ .Title }}</h1>
 <div class="intro">{{.Content}}</div>
 <div class="tiles">
 	{{ range .Pages.ByPublishDate.Reverse }}
