@@ -27,7 +27,6 @@ html {
 h1 {
 	font-family: Dyno;
 	font-weight: bolder;
-	margin-bottom: 1em;
 	letter-spacing: 0.03em;
 }
 
@@ -92,6 +91,11 @@ header {
 		);
 
 	margin-bottom: 1rem;
+}
+
+header .meta {
+	color: rgba(0,0,0,0.7);;
+	font-weight: bold;
 }
 
 #hero {

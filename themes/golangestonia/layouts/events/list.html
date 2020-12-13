@@ -1,5 +1,12 @@
 {{ define "main" }}
-<header><h1 class="center">{{ .Title }}</h1></header>
+<header>
+	<div class="center">
+		<h1>{{ .Title }}</h1>
+		{{ with .Params.Kind }}<div class="meta">{{.}}</div>{{end}}
+		{{ with .Params.Place }}<div class="meta">Place: {{.}}</div>{{end}}
+		{{ with .Params.Date }}<div class="meta">Date: {{.Format "January 02, 2006"}}</div>{{end}}
+	</div>
+</header>
 <div class="center">
 <div class="intro">{{.Content}}</div>
 <div class="tiles">
