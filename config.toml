@@ -1,0 +1,22 @@
+baseURL = "https://golangestonia.github.io"
+languageCode = "en-us"
+title = "Golang Estonia"
+theme = "golangestonia"
+
+[menu]
+	[[menu.main]]
+		name = "Community"
+		url = "/community/"
+		weight = 1
+	[[menu.main]]
+		name = "Events"
+		url = "/events/"
+		weight = 2
+	[[menu.main]]
+		name = "Companies"
+		url = "/companies/"
+		weight = 3
+	[[menu.main]]
+		name = "Team"
+		url = "/team/"
+		weight = 4

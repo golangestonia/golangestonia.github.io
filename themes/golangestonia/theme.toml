@@ -1,0 +1,8 @@
+name = "Golang Estonia"
+license = "MIT"
+licenselink = "https://github.com/golangestonia/golangestonia.github.io"
+description = ""
+homepage = "https://golangestonia.github.io"
+tags = []
+features = []
+min_version = "0.41.0"
