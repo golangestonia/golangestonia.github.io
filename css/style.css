@@ -14,7 +14,7 @@ img { max-width: 100%; height: auto; }
 
 @font-face {
 	font-family: Dyno;
-	src: url(/static/font/Dyno Bold.ttf);
+	src: url(/font/Dyno Bold.ttf);
 }
 
 html {
