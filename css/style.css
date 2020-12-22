@@ -25,7 +25,7 @@ html {
 }
 
 h1 {
-	font-family: Dyno;
+	font-family: Dyno, sans-serif;
 	font-weight: bolder;
 	letter-spacing: 0.03em;
 }
@@ -56,7 +56,7 @@ p {
 	display: block;
 	text-decoration: none;
 	color: var(--fg);
-	font-family: Dyno;
+	font-family: Dyno, sans-serif;
 
 	padding: 0.5em 1em;
 	color: #444;
@@ -138,7 +138,7 @@ header .meta {
 }
 
 #hero .title {
-	font-family: Dyno;
+	font-family: Dyno, sans-serif;
 	font-weight: bolder;
 	font-size: 4rem;
 	line-height: 1;
@@ -199,7 +199,7 @@ header .meta {
 }
 
 .tiles > .tile h3 {
-	font-family: Dyno;
+	font-family: Dyno, sans-serif;
 	font-size: 1.6rem;
 	letter-spacing: 0.1em;
 }
