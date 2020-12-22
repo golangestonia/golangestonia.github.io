@@ -1,0 +1,212 @@
+/* CSS Reset */
+html { box-sizing: border-box; font-size: 16px;}
+*, *:before, *:after { box-sizing: inherit; }
+body, h1, h2, h3, h4, h5, h6, p, ol, ul { margin: 0; padding: 0; font-weight: normal; }
+img { max-width: 100%; height: auto; }
+
+:root {
+	--fg: #222;
+	--bg: #fff;
+
+	--accent: #f4d292;
+	--accent-light: #fbeed5;
+}
+
+@font-face {
+	font-family: Dyno;
+	src: url(/static/font/Dyno Bold.ttf);
+}
+
+html {
+	background: var(--bg);
+	color: var(--fg);
+	line-height: 1.5;
+	overflow-y: auto;
+}
+
+h1 {
+	font-family: Dyno;
+	font-weight: bolder;
+	letter-spacing: 0.03em;
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+.center {
+	margin: 0 auto;
+	max-width: 44rem;
+	padding: 0.5rem;
+}
+
+#menu nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0.5em;
+}
+
+#menu nav a {
+	display: block;
+	text-decoration: none;
+	color: var(--fg);
+	font-family: Dyno;
+
+	padding: 0.5em 1em;
+	color: #444;
+
+	transition:
+		background 0.15s ease-in-out,
+		color 0.15s ease-in-out;
+}
+
+#menu nav a.active {
+	background: var(--accent);
+	color: #000;
+}
+
+#menu nav a:hover, #menu nav a:focus {
+	background: var(--accent);
+	color: #000;
+}
+
+#menu nav a:first-child {
+	font-weight: bold;
+}
+
+header {
+	background-color: var(--accent);
+	background-image:
+		radial-gradient(
+			circle at 35% 120%,
+			var(--accent) 50%,
+			transparent 50%
+		),
+		radial-gradient(
+			circle at 35% 150%,
+			var(--accent-light) 70%,
+			var(--accent) 70%
+		);
+
+	margin-bottom: 1rem;
+}
+
+header .meta {
+	color: rgba(0,0,0,0.7);;
+	font-weight: bold;
+}
+
+#hero {
+	background-color: var(--accent);
+	background-image: url("/images/hero.png");
+	background-image:
+		url("/images/hero.png"),
+		radial-gradient(
+			circle at 50% 130%,
+			var(--accent) 50%,
+			transparent 50%
+		),
+		radial-gradient(
+			circle at 50% 180%,
+			var(--accent-light) 70%,
+			var(--accent) 70%
+		);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	min-height: 10rem;
+	height: 40rem;
+	max-height: 50vh;
+
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+
+	margin-bottom: 1rem;
+}
+
+@media (max-width:34rem) {
+	#hero { background-position: 90% center; }
+}
+
+#hero .title {
+	font-family: Dyno;
+	font-weight: bolder;
+	font-size: 4rem;
+	line-height: 1;
+	text-shadow:
+		0px 2px 2px rgba(0,0,0,0.6),
+		0px 0px 5px rgba(0,0,0,0.3);
+	color: #fff;
+	letter-spacing: 0.1em;
+}
+
+#hero .pad-bottom {
+	max-height: 1em;
+}
+
+.tiles {
+	display: grid;
+	grid-gap: 2rem;
+	grid-template-columns: repeat(auto-fit,  minmax(20rem, 1fr));
+}
+
+.tiles > .tile {
+	position: relative;
+
+	background: var(--accent);
+	background-position: center;
+	background-size: cover;
+	height: 20rem;
+	border-radius: 3px;
+
+	box-shadow:
+		0px 2px 3px rgba(0, 0, 0, 0.25),
+		0px 0px 6px rgba(0, 0, 0, 0.1);
+
+	text-decoration: none;
+	text-shadow:
+		0px 2px 2px rgba(0,0,0,0.1),
+		0px 0px 3px rgba(0,0,0,0.05);
+	color: #fff;
+
+	transition: box-shadow 0.15s ease-in-out;
+}
+
+.tiles > .tile:hover, .tiles > .tile:focus {
+	box-shadow:
+		0px 8px 6px rgba(0, 0, 0, 0.1),
+		0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tiles > .tile .info {
+	background: rgba(0, 0, 0, 0.3);
+	padding: 0.5rem 0.8rem;
+
+	transition: background 0.15s ease-in-out;
+}
+
+.tiles > .tile:hover .info, .tiles > .tile:focus .info {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.tiles > .tile h3 {
+	font-family: Dyno;
+	font-size: 1.6rem;
+	letter-spacing: 0.1em;
+}
+
+.tiles > .tile .kind {
+	position: absolute;
+	right: 0.8rem;
+	bottom: 0.5rem;
+
+	font-size: 1.2em;
+	text-shadow:
+		0px 2px 2px rgba(0,0,0,0.1),
+		0px 0px 3px rgba(0,0,0,0.3);
+}
