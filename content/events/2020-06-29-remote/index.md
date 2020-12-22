@@ -3,6 +3,7 @@ title: "Error Handling"
 place: "Online"
 kind: Meetup
 date: "2020-06-29"
+splash: "splash.png"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

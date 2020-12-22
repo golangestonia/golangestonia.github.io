@@ -3,6 +3,7 @@ title: "Simple, WASM and Performance"
 place: "Mooncascade, Tallinn"
 kind: Meetup
 date: "2020-02-05"
+splash: "splash.png"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

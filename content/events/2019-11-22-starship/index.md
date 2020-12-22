@@ -3,6 +3,7 @@ title: "10 Years of Go"
 place: "Starship, Tallinn"
 kind: Meetup
 date: "2019-11-22"
+splash: "splash.png"
 ---
 
 Celebrate 10 years of Go with the first Golang Estonia meetup.

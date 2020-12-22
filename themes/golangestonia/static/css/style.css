@@ -40,6 +40,10 @@ p {
 	padding: 0.5rem;
 }
 
+.footer-padding {
+	height: 3rem;
+}
+
 #menu nav {
 	display: flex;
 	justify-content: space-between;

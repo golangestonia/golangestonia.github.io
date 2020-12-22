@@ -3,7 +3,7 @@ title: "Getting Started"
 place: "Delta, Tartu"
 kind: Meetup
 date: "2020-10-28"
-splash: "/splash.png"
+splash: "splash.png"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

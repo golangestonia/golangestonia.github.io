@@ -1,0 +1,27 @@
+{{ define "main" }}
+<header>
+	<div class="center">
+		<h1>{{ .Title }}</h1>
+		{{ with .Params.Kind }}<div class="meta">{{.}}</div>{{end}}
+		{{ with .Params.Place }}<div class="meta">Place: {{.}}</div>{{end}}
+		{{ with .Params.Date }}<div class="meta">Date: {{.Format "January 02, 2006"}}</div>{{end}}
+	</div>
+</header>
+<div class="center">
+<div class="intro">{{.Content}}</div>
+<div class="tiles">
+	{{ range .Pages.ByPublishDate.Reverse }}
+		{{ partial "tile.html" . }}
+	{{ end }}
+</div>
+{{ if (or .PrevInSection .NextInSection)}}
+<div class="pagination">
+	<hr>
+	<div class="tiles">
+	{{ with .PrevInSection }}{{ partial "tile.html" . }}{{ end }}
+	{{ with .NextInSection }}{{ partial "tile.html" . }}{{ end }}
+	</div>
+</div>
+{{ end }}
+</div>
+{{ end }}
