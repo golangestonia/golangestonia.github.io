@@ -5,18 +5,10 @@ theme = "golangestonia"
 
 [menu]
 	[[menu.main]]
-		name = "Community"
-		url = "/community/"
-		weight = 1
-	[[menu.main]]
 		name = "Events"
 		url = "/events/"
-		weight = 2
+		weight = 1
 	[[menu.main]]
 		name = "Companies"
 		url = "/companies/"
-		weight = 3
-	[[menu.main]]
-		name = "Team"
-		url = "/team/"
-		weight = 4
+		weight = 2
