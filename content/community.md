@@ -2,43 +2,28 @@
 title: "Community"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor
-aliquam nulla facilisi cras fermentum odio. A erat nam at lectus urna duis.
-Sed velit dignissim sodales ut eu sem. Lectus urna duis convallis convallis
-tellus.
+Golang Estonian can be found in multiple places. There are a few major communication channels.
 
-## Slack (#estonia)
+## Slack
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.
+Gophers Slack is one of the standard communication channels. Once you have registered to the Slack you can join `#estonia` channel.
+
+To register to the Gophers Slack please go to https://invite.slack.golangbridge.org/.
 
 ## Meetup
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.
+Our events are announced at https://www.meetup.com/Golang-Estonia/. Join the group to get any updates when something happens.
 
 ## Github
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.
+We use github.com to host our community projects, Meetup materials and this website.
+
+https://github.com/golangestonia
 
 ## Youtube
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.
+When we manage to record our meetups successfully we upload the videos to Youtube. You can find the [Channel Here](https://www.youtube.com/channel/UCHeIcjPXRniB1IlvgIpL0nw).
 
 ## LinkedIn
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.
+We've also setup a group on LinkedIn. You can find the group here https://www.linkedin.com/company/golang-estonia-meetup.
