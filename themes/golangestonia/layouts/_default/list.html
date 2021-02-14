@@ -1,5 +1,9 @@
 {{ define "main" }}
-<header><h1 class="center">{{ .Title }}</h1></header>
+<header>
+    <div class="center">
+        <h1>{{ .Title }}</h1>
+    </div>
+</header>
 <div class="center">
 {{ range .Pages.ByPublishDate.Reverse }}
 <p>
