@@ -6,54 +6,34 @@ date: "2020-02-05"
 splash: "splash.png"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Our second meetup was held at Mooncascade.
 
-## Talks
+## "Stupid Simple!" by Vladimir Andrianov
 
-### "Stupid Simple!" by Vladimir Andrianov
+Vladimir Andrianov shared his excitement for Domain-Driven Design (DDD) and the simplicity of Go.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[Slides](https://github.com/golangestonia/meetups/raw/master/2020-02-05%40Mooncascade/Stupid%20simple!%20-%20Vladimir%20Andrianov.pdf)
 
-### "The State of WebAssembly in Go" by Matias Insaurralde
+## "The State of WebAssembly in Go" by Matias Insaurralde
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Matías Insaurralde from Paraguay shared the state of Web Assembly and Go.
 
-### "A Tale of Performant Breadth-First-Search" by Egon Elbre
+[Slides](https://github.com/golangestonia/meetups/raw/master/2020-02-05%40Mooncascade/The%20state%20of%20WebAssembly%20in%20Go%20-%20Matias%20Insaurralde.pdf)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## "A Tale of Performant Breadth-First-Search" by Egon Elbre
 
-## Lightning Talks
+Egon Elbre urged us to use better algorithms, use less memory and fewer pointers for better performance (if that is what is needed).
 
-### "Revised Payment Services Directive (PSD2)" by Siim Kaspar Uustalu
+[Slides](https://github.com/golangestonia/meetups/raw/master/2020-02-05%40Mooncascade/A%20Tale%20of%20Performant%20BFS%20-%20Egon%20Elbre.pdf), [Talk recorded at GopherCon EU](https://www.youtube.com/watch?v=ulSlF2Phecg)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.
+## "Revised Payment Services Directive (PSD2)" by Siim Kaspar Uustalu
 
-### "Report from GoDays in Berlin" by Taavi Kivisik
+Siim Kaspar Uustalu shared how Mooncascade brings value to #fintech companies with Go at Golang Estonia Meetup.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.
+[Repository](https://github.com/mooncascade/toy-banklink)
+
+## "Report from GoDays in Berlin" by Taavi Kivisik
+
+Taavi shared some of the highlights from GoDays in Berlin at Golang Estonia at Mooncascade.
+
+[Slides](https://github.com/golangestonia/meetups/raw/master/2020-02-05%40Mooncascade/dotgo-2020-estonia.pdf)

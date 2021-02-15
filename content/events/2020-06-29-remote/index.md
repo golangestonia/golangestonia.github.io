@@ -6,16 +6,22 @@ date: "2020-06-29"
 splash: "splash.png"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
+We held our third event online. The full event can be seen on [Youtube](https://www.youtube.com/watch?v=d2BZgdlN7b0).
 
-## Talks
+## "Error Handling" by Vitalii Lakusta
 
-### "Error Handling" by Vitalii Lakusta
+Vitalii Lakusta gave a through overview of error handling in Go.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[Recording](https://www.youtube.com/watch?v=d2BZgdlN7b0&t=3s), [Slides](https://github.com/golangestonia/meetups/raw/master/2020-06-29%40Online/Golang%20Meetup%20Error%20Handling%20Vitalii%20Lakusta.pdf)
+
+## Demo "Diagramming" by Egon Elbre
+
+Egon Elbre demonstrated https://github.com/loov/diagram for creating diagrams in Go.
+
+[Recording](https://www.youtube.com/watch?v=d2BZgdlN7b0&t=3773s)
+
+## Demo "Djinni format" by Masakazu Ohtsuka
+
+Masakazu Ohtsuka demonstrated parsing he wrote https://github.com/planetway/djinni-renderer.
+
+[Recording](https://www.youtube.com/watch?v=d2BZgdlN7b0&t=4170s)

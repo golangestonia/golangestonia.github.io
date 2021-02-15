@@ -6,33 +6,21 @@ date: "2019-11-22"
 splash: "splash.png"
 ---
 
-Celebrate 10 years of Go with the first Golang Estonia meetup.
+We celebrated 10 years of Go with the first Golang Estonia meetup at Starship.
 
-## Talks
+## Go at Starship by Joel Mislav Kunst
 
-### 10 Years of Go by  Egon Elbre
+Joel Mislav Kunst shared how Go is used at Starship for their autonomous package delivery robots. Shared his experience that Go is great for performance critical components and that it's easy to learn, but not the best for fast prototyping.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## 10 Years of Go by  Egon Elbre
 
-### Getting Started by Taavi Kivisik
+Egon Elbre explained why he got fascinated with Go already in 2009 and what is the philosophy of Go.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[Slides](https://github.com/golangestonia/meetups/raw/master/2019-11-22%40Starship-GoTurns10/Philosophy%20of%20Go%20-%20Egon%20Elbre.pdf)
 
-### State of Go in Estonia by Egon Elbre, Taavi Kivisik
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Getting Started by Taavi Kivisik
+
+Taavi gave a talk about how to start with and stay growing with Go.
+
+[Slides](https://github.com/golangestonia/meetups/raw/master/2019-11-22%40Starship-GoTurns10/Resources%20to%20Start%20and%20Stay%20Growing%20With%20Go%20-%20Taavi%20Kivisik.pdf)
