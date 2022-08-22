@@ -10,6 +10,9 @@ img { max-width: 100%; height: auto; }
 
 	--accent: #f4d292;
 	--accent-light: #fbeed5;
+
+	--menu-bg: #1B2527;
+	--menu-fg: #ffffff;
 }
 
 @font-face {
@@ -30,6 +33,10 @@ h1 {
 	letter-spacing: 0.03em;
 }
 
+h2 {
+	margin-top: 2rem;
+}
+
 p {
 	margin-bottom: 1rem;
 }
@@ -44,6 +51,10 @@ p {
 	height: 3rem;
 }
 
+#menu {
+	background: var(--menu-bg);
+}
+
 #menu nav {
 	display: flex;
 	justify-content: space-between;
@@ -55,11 +66,10 @@ p {
 #menu nav a {
 	display: block;
 	text-decoration: none;
-	color: var(--fg);
+	color: var(--menu-fg);
 	font-family: Dyno, sans-serif;
 
 	padding: 0.5em 1em;
-	color: #444;
 
 	transition:
 		background 0.15s ease-in-out,
@@ -104,9 +114,7 @@ header .meta {
 
 #hero {
 	background-color: var(--accent);
-	background-image: url("/images/hero.png");
 	background-image:
-		url("/images/hero.png"),
 		radial-gradient(
 			circle at 50% 130%,
 			var(--accent) 50%,
@@ -121,20 +129,14 @@ header .meta {
 	background-position: center;
 	background-size: contain;
 	min-height: 10rem;
-	height: 40rem;
-	max-height: 50vh;
+	height: 80vh;
 
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: flex-end;
 
 	margin-bottom: 1rem;
-}
-
-@media (max-width:34rem) {
-	#hero { background-position: 90% center; }
 }
 
 #hero .title {
@@ -151,6 +153,101 @@ header .meta {
 
 #hero .pad-bottom {
 	max-height: 1em;
+}
+
+#hero .hero-slide {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	/*max-width: 90rem;*/
+	padding: 0 3rem;
+	padding: 0 calc(1rem + 5vw);
+
+	font-size: calc(1rem + 1vh);
+}
+
+#hero .tiny-caption {
+	font-size: calc(0.8rem + 1vh);
+	opacity: 0.8;
+}
+
+#hero .hero-slide .event {
+	flex: 1;
+	padding: 1rem;
+}
+#hero .hero-slide .find-us {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+
+	padding: 1rem;
+	padding-left: calc(0.1rem + 5vw);
+	font-size: calc(1.2rem + 1vh);
+}
+#hero .hero-slide .find-us > div {
+	margin-bottom: calc(0.5rem + 1vh);
+}
+#hero .find-us a {
+	color: #000;
+}
+#hero .qrcode {
+	margin-top: 1rem;
+	max-width: 10rem;
+}
+
+@media (max-width:45rem) {
+	#hero {
+		height: unset;
+	}
+	#hero .hero-slide {
+		display: block;
+		padding: 0 0rem;
+	}
+
+	#hero .hero-slide .find-us > div {
+		margin-bottom: 0;
+	}
+}
+
+#hero .event {
+	display: flex;
+	flex-direction: column;
+}
+
+#hero .next-event {
+	display: block;
+	width: 100%;
+	height: 100%;
+
+	background-position: center;
+	background-size: cover;
+
+	box-shadow:
+		0px 2px 3px rgba(0, 0, 0, 0.25),
+		0px 0px 6px rgba(0, 0, 0, 0.1);
+
+	text-decoration: none;
+	text-shadow:
+		0px 2px 2px rgba(0,0,0,0.1),
+		0px 0px 3px rgba(0,0,0,0.05);
+
+	color: #000;
+}
+
+#hero .next-event .info {
+	background: rgba(255, 255, 255, 0.41);
+	padding: 0.5rem 0.8rem;
+	min-height: 30%;
+
+	transition: background 0.15s ease-in-out;
+}
+
+#hero .next-event h3 {
+	font-family: Dyno, sans-serif;
+	font-size: calc(1.6rem + 3vh);
+	font-weight: bold;
+	letter-spacing: 0.1em;
 }
 
 .tiles {

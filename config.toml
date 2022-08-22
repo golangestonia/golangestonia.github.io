@@ -9,6 +9,6 @@ theme = "golangestonia"
 		url = "/events/"
 		weight = 1
 	[[menu.main]]
-		name = "Companies"
-		url = "/companies/"
+		name = "Community"
+		url = "/community/"
 		weight = 2

@@ -14,9 +14,11 @@
 		{{ partial "tile.html" . }}
 	{{ end }}
 </div>
+<!--
 {{ if (or .PrevInSection .NextInSection)}}
 <div class="pagination">
 	<hr>
+	<h3>Other events:</h3>
 	<div class="tiles">
 	{{ with .PrevInSection }}{{ partial "tile.html" . }}{{ end }}
 	{{ with .NextInSection }}{{ partial "tile.html" . }}{{ end }}
@@ -24,4 +26,5 @@
 </div>
 {{ end }}
 </div>
+-->
 {{ end }}
