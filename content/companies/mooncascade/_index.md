@@ -1,10 +1,6 @@
 ---
 title: "Mooncascade"
+site: "https://mooncascade.com/"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Mooncascade is a leading product development company with global reach. Our skilled team provides outstanding quality at every stage of the software product development process, helping clients build innovative solutions that inspire, disrupt, and challenge markets across the world.
